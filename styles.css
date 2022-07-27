@@ -29,6 +29,7 @@ h1 {
 #home {
     display: flex;
     flex-direction: column;
+    width: 120px;
     
 }
 
@@ -38,6 +39,7 @@ h1 {
     font-size: 90px;
     padding: 10px 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .home-btns {
@@ -57,7 +59,6 @@ h1 {
 #guest {
     display: flex;
     flex-direction: column;
-    
 }
 
 #guest-score {
@@ -66,6 +67,8 @@ h1 {
     font-size: 90px;
     padding: 10px 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
+
 }
 
 .guest-btns {
@@ -80,4 +83,5 @@ h1 {
     color: #9AABD8;
     padding: 2px;
     border-radius: 5px;
+    
 }
